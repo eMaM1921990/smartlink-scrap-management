@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+'django.contrib.sites',
     'django.contrib.staticfiles',
     'scr',
     'import_export',
@@ -133,3 +134,5 @@ STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
 
 MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = '/media/'
+
+SITE_ID = 1
